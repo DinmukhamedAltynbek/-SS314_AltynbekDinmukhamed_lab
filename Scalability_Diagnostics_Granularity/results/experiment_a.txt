@@ -1,0 +1,21 @@
+EXPERIMENT A: GRANULARITY TRAP
+
+Total items: 1,000,000
+Checksum: 131434424
+
+MICRO (chunksize=1):
+P=1: 99.815 s
+P=2: 140.480 s
+P=4: 129.103 s
+P=8: 136.952 s
+
+COARSE (chunksize=10000):
+P=1: 14.651 s
+P=2: 8.693 s
+P=4: 5.835 s
+P=8: 6.158 s
+
+CONCLUSION:
+Micro-tasks suffer from dispatch overhead.
+Coarse chunks provide much better performance.
+Best result: 4 processes, 5.835 seconds.

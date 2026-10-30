@@ -1,0 +1,11 @@
+=== EXPERIMENT C: BUFFERED BATCH ===
+Total items: 10000000
+Batch size: 10000
+P=1 | Time=1.125s | Checksum=29999994
+P=2 | Time=0.850s | Checksum=29999994
+P=4 | Time=0.849s | Checksum=29999994
+P=8 | Time=1.129s | Checksum=29999994
+
+P=2 | Speedup=1.324x | Efficiency=66.19% | Karp-Flatt=0.5107
+P=4 | Speedup=1.324x | Efficiency=33.10% | Karp-Flatt=0.6738
+P=8 | Speedup=0.996x | Efficiency=12.45% | Karp-Flatt=1.0047

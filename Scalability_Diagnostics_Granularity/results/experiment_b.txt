@@ -1,0 +1,10 @@
+=== EXPERIMENT B: QUEUE CONTENTION ===
+Total items: 400000
+P=1 | Time=7.119s | Checksum=1199997
+P=2 | Time=49.176s | Checksum=1199997
+P=4 | Time=55.866s | Checksum=1199997
+P=8 | Time=56.872s | Checksum=1199997
+
+P=2 | Speedup=0.145x | Efficiency=7.24% | Karp-Flatt=12.8157
+P=4 | Speedup=0.127x | Efficiency=3.19% | Karp-Flatt=10.1301
+P=8 | Speedup=0.125x | Efficiency=1.56% | Karp-Flatt=8.9874
